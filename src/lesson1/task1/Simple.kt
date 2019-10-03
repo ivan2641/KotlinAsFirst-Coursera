@@ -53,8 +53,10 @@ fun main(args: Array<String>) {
     println("7*7 =$result")
     //val x1x2 = quadraticRootProduct(1.0, 13.0, 42.0)
     //println("Root product: $x1x2")
-    //val degree = angleInRadian(36, 14, 35)
-    //println("degree=$degree")
+    val degree = angleInRadian(36, 14, 35)
+    println("degree=$degree")
+    val numb = thirdDigit(12345)
+    println(numb)
 }
 
 /**
